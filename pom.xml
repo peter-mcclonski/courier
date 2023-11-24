@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.technologybrewery</groupId>
+    <artifactId>parent</artifactId>
+    <version>6</version>
+  </parent>
+  <groupId>org.technologybrewery.courier</groupId>
+  <artifactId>courier-root</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Courier::Root</name>
+  <description></description>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Peter McClonski</name>
+      <email>mcclonski.peter@gmail.com</email>
+      <organization>Technology Brewery</organization>
+      <organizationUrl>https://technologybrewery.org</organizationUrl>
+    </developer>
+  </developers>
+  <modules>
+    <module>courier-service</module>
+    <module>courier-client-py</module>
+  </modules>
+  <properties>
+    <version.habushu.plugin>2.8.0</version.habushu.plugin>
+  </properties>
+  <dependencyManagement />
+  <build />
+</project>
